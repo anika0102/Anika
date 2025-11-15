@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio-Anika/static/css/main.2bfc7858.css",
-    "main.js": "/portfolio-Anika/static/js/main.9c3fb9b0.js",
-    "static/js/453.8dc412c0.chunk.js": "/portfolio-Anika/static/js/453.8dc412c0.chunk.js",
-    "static/media/mock06.png": "/portfolio-Anika/static/media/mock06.80dc3ce5fde91e2644d6.png",
-    "static/media/mock13.jpeg": "/portfolio-Anika/static/media/mock13.db0ae1fd9fa9f060f051.jpeg",
-    "static/media/mock10.png": "/portfolio-Anika/static/media/mock10.851c8d4dde0d4bf9e942.png",
-    "static/media/mock09.png": "/portfolio-Anika/static/media/mock09.10b8b15dde09a81622e3.png",
-    "static/media/mock05.png": "/portfolio-Anika/static/media/mock05.57c353bcd66828104006.png",
-    "static/media/bg-light.png": "/portfolio-Anika/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/mock08.png": "/portfolio-Anika/static/media/mock08.c3cb47860ba1c7e30086.png",
-    "static/media/bg-dark.png": "/portfolio-Anika/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/mock15.png": "/portfolio-Anika/static/media/mock15.9b82562b16300e86279a.png",
-    "static/media/anika.jpg": "/portfolio-Anika/static/media/anika.567ccd425dc0cd58a0e9.jpg",
-    "static/media/mock14.jpeg": "/portfolio-Anika/static/media/mock14.e37c9f082039c79cc1ba.jpeg",
-    "static/media/mock12.jpeg": "/portfolio-Anika/static/media/mock12.bce2a91d1f19608c7c45.jpeg",
-    "static/media/mock11.jpeg": "/portfolio-Anika/static/media/mock11.bf1a47cc7e094304bf44.jpeg",
-    "static/media/mock07.png": "/portfolio-Anika/static/media/mock07.352444b180b648fea8ac.png",
-    "index.html": "/portfolio-Anika/index.html",
-    "main.2bfc7858.css.map": "/portfolio-Anika/static/css/main.2bfc7858.css.map",
-    "main.9c3fb9b0.js.map": "/portfolio-Anika/static/js/main.9c3fb9b0.js.map",
-    "453.8dc412c0.chunk.js.map": "/portfolio-Anika/static/js/453.8dc412c0.chunk.js.map"
+    "main.css": "/Anika/static/css/main.65cfd693.css",
+    "main.js": "/Anika/static/js/main.c8e6d743.js",
+    "static/js/453.0b1bca98.chunk.js": "/Anika/static/js/453.0b1bca98.chunk.js",
+    "static/media/mock06.png": "/Anika/static/media/mock06.80dc3ce5fde91e2644d6.png",
+    "static/media/mock13.jpeg": "/Anika/static/media/mock13.db0ae1fd9fa9f060f051.jpeg",
+    "static/media/mock10.png": "/Anika/static/media/mock10.851c8d4dde0d4bf9e942.png",
+    "static/media/mock09.png": "/Anika/static/media/mock09.10b8b15dde09a81622e3.png",
+    "static/media/mock05.png": "/Anika/static/media/mock05.57c353bcd66828104006.png",
+    "static/media/bg-light.png": "/Anika/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/mock08.png": "/Anika/static/media/mock08.c3cb47860ba1c7e30086.png",
+    "static/media/bg-dark.png": "/Anika/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/mock15.png": "/Anika/static/media/mock15.9b82562b16300e86279a.png",
+    "static/media/anika.jpg": "/Anika/static/media/anika.567ccd425dc0cd58a0e9.jpg",
+    "static/media/mock14.jpeg": "/Anika/static/media/mock14.e37c9f082039c79cc1ba.jpeg",
+    "static/media/mock12.jpeg": "/Anika/static/media/mock12.bce2a91d1f19608c7c45.jpeg",
+    "static/media/mock11.jpeg": "/Anika/static/media/mock11.bf1a47cc7e094304bf44.jpeg",
+    "static/media/mock07.png": "/Anika/static/media/mock07.352444b180b648fea8ac.png",
+    "index.html": "/Anika/index.html",
+    "main.65cfd693.css.map": "/Anika/static/css/main.65cfd693.css.map",
+    "main.c8e6d743.js.map": "/Anika/static/js/main.c8e6d743.js.map",
+    "453.0b1bca98.chunk.js.map": "/Anika/static/js/453.0b1bca98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bfc7858.css",
-    "static/js/main.9c3fb9b0.js"
+    "static/css/main.65cfd693.css",
+    "static/js/main.c8e6d743.js"
   ]
 }
