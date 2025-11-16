@@ -14,26 +14,30 @@ function Contact() {
         {/* Heading */}
         <h1 className="section-heading">Let&apos;s Connect</h1>
 
-        {/* Line 1 */}
+        {/* Tagline */}
         <p className="contact-simple-text">
-          Let&apos;s build something amazing — or just connect🚀
+          Let&apos;s build something meaningful together — explore ideas, collaborate, or simply connect 🚀
         </p>
 
+        {/* Calendly CTA */}
         <a
           href="https://calendly.com/anikaver-usc/let-s-connect"
           target="_blank"
           rel="noreferrer"
           className="calendly-link"
         >
-          📅 Book a 1:1 on Calendly
+          <span className="cal-icon">📅</span>
+          <span>Book a 1:1 on Calendly</span>
         </a>
 
-        {/* Social row */}
+        {/* Social icons */}
         <div className="simple-icons-grid">
-          {/* Email – opens default mail handler (Gmail if configured) */}
+
+          {/* Email */}
           <a
             href="mailto:anikaver@usc.edu?subject=Let%27s%20Connect&body=Hi%20Anika,"
             className="icon-circle email"
+            aria-label="Email"
           >
             <EmailIcon />
           </a>
@@ -44,6 +48,7 @@ function Contact() {
             target="_blank"
             rel="noreferrer"
             className="icon-circle linkedin"
+            aria-label="LinkedIn"
           >
             <LinkedInIcon />
           </a>
@@ -54,6 +59,7 @@ function Contact() {
             target="_blank"
             rel="noreferrer"
             className="icon-circle github"
+            aria-label="GitHub"
           >
             <GitHubIcon />
           </a>
@@ -64,16 +70,18 @@ function Contact() {
             target="_blank"
             rel="noreferrer"
             className="icon-circle instagram"
+            aria-label="Instagram"
           >
             <InstagramIcon />
           </a>
 
-          {/* X (Twitter) */}
+          {/* X */}
           <a
             href="https://x.com/12anikaverma00?s=11"
             target="_blank"
             rel="noreferrer"
             className="icon-circle x-icon"
+            aria-label="X"
           >
             <span>X</span>
           </a>
@@ -84,9 +92,11 @@ function Contact() {
             target="_blank"
             rel="noreferrer"
             className="icon-circle snapchat"
+            aria-label="Snapchat"
           >
             <span>SC</span>
           </a>
+
         </div>
 
       </div>

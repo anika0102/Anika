@@ -1,83 +1,151 @@
+/* ------------------------ */
+/* Centered Section Heading */
+/* ------------------------ */
+.section-heading {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 auto 0.8rem auto;   /* centers the heading block */
+  position: relative;
+  width: fit-content;           /* IMPORTANT: centers underline perfectly */
+  display: block;
+  text-align: center;
+
+  /* centered underline */
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    border-radius: 999px;
+    background: linear-gradient(
+      90deg,
+      #a855f7,
+      #6366f1,
+      transparent
+    );
+  }
+}
+
+/* ------------------------ */
+/* CONTACT SECTION STYLES   */
+/* ------------------------ */
+
 .simple-contact {
   max-width: 700px;
   margin: 0 auto;
-  text-align: left;
-  padding: 40px 0 70px;
+  text-align: center;         /* CENTER SECTION */
+  padding: 56px 0 80px;
 }
 
+/* tagline under heading */
 .contact-simple-text {
-  margin-bottom: 8px;
+  margin-top: 4px;
+  margin-bottom: 10px;
   font-size: 1rem;
   opacity: 0.9;
 }
 
+/* Calendly centered CTA */
 .calendly-link {
-  display: inline-block;
-  margin-bottom: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;    /* CENTER CTA */
+  gap: 8px;
+  margin-bottom: 28px;
   color: #c4b5fd;
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.98rem;
+}
+
+.cal-icon {
+  font-size: 1.1rem;
 }
 
 .calendly-link:hover {
   text-decoration: underline;
 }
 
-/* Social icons row – all in one line, wraps nicely on mobile */
+/* Center icons row */
 .simple-icons-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 14px;
   align-items: center;
+  justify-content: center;    /* CENTER ICONS */
 }
 
 /* Base circle style */
 .icon-circle {
-  width: 42px;
-  height: 42px;
+  width: 46px;
+  height: 46px;
   border-radius: 50%;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
   color: #e5e7eb;
-  background: rgba(15, 23, 42, 0.9);
-  border: 1px solid rgba(148, 163, 184, 0.6);
-  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease,
-    border-color 0.2s ease;
+  background: rgba(15, 23, 42, 0.95);
+  border: 1px solid rgba(148, 163, 184, 0.65);
+  transition: background 0.2s ease, transform 0.2s ease,
+              box-shadow 0.2s ease, border-color 0.2s ease;
   font-size: 0.9rem;
 }
 
 .icon-circle svg {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
 }
 
-/* Hover effect */
+/* Hover glow */
 .icon-circle:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.55);
   border-color: #a855f7;
-  background: radial-gradient(circle at top, rgba(168, 85, 247, 0.35), rgba(15, 23, 42, 1));
+  background: radial-gradient(
+    circle at top,
+    rgba(168, 85, 247, 0.35),
+    rgba(15, 23, 42, 1)
+  );
 }
 
 /* X + Snapchat text styling */
 .icon-circle span {
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
-/* Optional slight brand hints */
-.icon-circle.linkedin { background: #0a66c2; }
-.icon-circle.github { background: #111827; }
+/* Brand hints */
+.icon-circle.email {
+  background: #0f172a;
+}
+
+.icon-circle.linkedin {
+  background: #0a66c2;
+}
+
+.icon-circle.github {
+  background: #111827;
+}
+
 .icon-circle.instagram {
   background: linear-gradient(135deg, #ec4899, #f97316, #eab308);
 }
-.icon-circle.x-icon { background: #000000; }
-.icon-circle.snapchat { background: #facc15; color: #111827; }
+
+.icon-circle.x-icon {
+  background: #000000;
+}
+
+.icon-circle.snapchat {
+  background: #facc15;
+  color: #111827;
+}
 
 @media (max-width: 600px) {
   .simple-contact {
-    padding: 30px 0 50px;
+    padding: 40px 0 60px;
   }
 }

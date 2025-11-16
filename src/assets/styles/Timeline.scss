@@ -1,3 +1,30 @@
+/* NEW: container + fancy heading like Projects/About */
+.items-container {
+    padding: 5% 10%;
+    text-align: left;
+}
+
+.items-container .section-heading {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: inline-block;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -8px;
+        width: 70px;
+        height: 3px;
+        border-radius: 999px;
+        background: linear-gradient(90deg, #a855f7, #6366f1, transparent);
+    }
+}
+
+/* Existing styles */
 .vertical-timeline span {
     color: white;
     font-family: 'Courier Prime', monospace;

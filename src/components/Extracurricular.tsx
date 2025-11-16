@@ -10,7 +10,7 @@ import mock14 from "../assets/images/mock14.jpeg";  // postcon
 function Extracurricular() {
   return (
     <section className="extras-container" id="extracurriculars">
-      <h1>Extracurriculars</h1>
+      <h1>Extracurricular</h1>
 
       <div className="extras-grid">
         {/* 1. HackSC Winner — Echoes */}
