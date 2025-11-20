@@ -114,7 +114,7 @@ function Navigation({ parentToChild, modeChange }: any) {
             {/* AV brand */}
             <div className="nav-brand">
               {/* <div className="nav-brand-logo">AV</div> */}
-              <span className="nav-brand-text">anikaverma</span>
+              <span className="nav-brand-text">AnikaVerse</span>
             </div>
           </Box>
 

@@ -1,20 +1,20 @@
 import React from "react";
-import Chip from "@mui/material/Chip";
-import Button from "@mui/material/Button";
-import "../assets/styles/Expertise.scss";
+import '@fortawesome/free-regular-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import Chip from '@mui/material/Chip';
+import Button from '@mui/material/Button';
+import '../assets/styles/Expertise.scss';
 
-// --- skills data (unchanged) ---
 const labelsFirst = [
   "Python","SQL","TensorFlow","PyTorch","Scikit-learn","Hugging Face",
   "LangChain","YOLO","OpenCV","Streamlit","Pandas/NumPy",
   "CNNs, RNNs, Transformers","Grad-CAM","Explainable AI"
 ];
-
 const labelsSecond = [
   "FoundationDB","BerkelyDB","JanusGraph","Gremlin","SQL","ACID",
   "OLAP/OLTP","Docker","CloudLab","Maven/IntelliJ","UNIX","Query Optimization"
 ];
-
 const labelsThird = ["React.js","Next.js","HTML/CSS","JavaScript","Node.js","Git","CI/CD"];
 
 const aboutHighlights = [
@@ -23,15 +23,31 @@ const aboutHighlights = [
 ];
 
 function Expertise() {
-  // 🔹 IMPORTANT: absolute path to file in /public
-  // Make sure ResumeAV.pdf is in the root of /public
-  const resumeHref = `${process.env.PUBLIC_URL}/ResumeAV.pdf`;
-  // In dev this becomes:        /ResumeAV.pdf
-  // On GitHub Pages it becomes: /portfolio-Anika/ResumeAV.pdf
+
+  // Works in all environments
+  const resumeHref = `${process.env.PUBLIC_URL}/Anika_Verma_Resume.pdf`;
+
+  // ⭐ Smooth scroll function for the button
+  const scrollToExtracurricular = () => {
+    const target = document.getElementById("extracurriculars");
+    const navbar = document.getElementById("navigation");
+
+    if (target) {
+      const navbarHeight = navbar ? navbar.offsetHeight : 0;
+      const elementPosition = target.getBoundingClientRect().top + window.scrollY;
+      const offsetPosition = elementPosition - navbarHeight - 8;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
 
   return (
     <div className="container" id="aboutme">
       <div className="skills-container">
+
         <h1>About Me</h1>
 
         <div className="skill">
@@ -53,9 +69,9 @@ function Expertise() {
             <Button
               variant="contained"
               color="success"
-              href={resumeHref}              // ⬅️ uses absolute URL now
+              href={resumeHref}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
             >
               View Resume
             </Button>
@@ -64,11 +80,20 @@ function Expertise() {
               variant="outlined"
               href="https://www.linkedin.com/in/anika-verma/"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
             >
               Connect on LinkedIn
             </Button>
+
+            {/*  section */}
           </div>
+
+          {/* Optional highlights */}
+          {/* <div className="flex-chips" style={{ marginTop: 18 }}>
+            {aboutHighlights.map((label, idx) => (
+              <Chip key={idx} className="chip" label={label} />
+            ))}
+          </div> */}
 
           <div className="skills-grid" style={{ marginTop: 24 }}>
             <div className="skill"></div>
