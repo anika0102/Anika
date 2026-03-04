@@ -25,7 +25,7 @@ const aboutHighlights = [
 function Expertise() {
 
   // Works in all environments
-  const resumeHref = `${process.env.PUBLIC_URL}/Anika_Verma_Resume.pdf`;
+  const resumeHref = `${process.env.PUBLIC_URL}/ResumeAV.pdf`;
 
   // ⭐ Smooth scroll function for the button
   const scrollToExtracurricular = () => {
