@@ -168,4 +168,15 @@
   .extra-card {
     flex: 1 1 100%;       /* full-width cards on very small screens */
   }
+
+.center-content {
+  margin: 0 auto;           // centers horizontally
+  max-width: 800px;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+}
+
 }

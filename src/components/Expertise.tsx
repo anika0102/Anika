@@ -46,7 +46,7 @@ function Expertise() {
 
   return (
     <div className="container" id="aboutme">
-      <div className="skills-container">
+      <div className="skills-container center-content">
 
         <h1>About Me</h1>
 
@@ -54,14 +54,21 @@ function Expertise() {
           <h3 style={{ marginTop: 12 }}>Hi, I’m Anika 👋</h3>
 
           <p>
-            I’m a Computer Science grad student at USC, fluent in Python and occasionally Bash.
-            I’m currently building AI/ML models, LLMs that hallucinate less, scalable graph
-            databases, and distributed systems.
-          </p>
-
+            a Computer Science graduate student at the University of Southern California.
+            <br />welcome to the little corner of the internet, a small part of me where you can see what I’m up to👩‍💻
+          </p>  
           <p>
-            This is my little corner of the internet where you can see what I’m up to.
-            I’m actively looking for Fall ’25 / Spring ’26 co-op & New Grad opportunities.
+             
+            I build at the intersection of Machine Learning, Backend Systems, and AI.
+            I’ve worked on projects across AI/ML, distributed databases, and systems. I enjoy turning complex problems into simple, scalable solutions using modern tech. 
+            From ML models to backend pipelines, I love building things that actually make an impact in the society.
+          </p>
+          <p>
+            I'm constantly learning, experimenting, and pushing myself to grow as an engineer. I enjoy collaborating, sharing ideas, and learning from different perspectives.
+          </p>
+          <p>
+            Open to full-time opportunities | Let’s connect and build together 📩 anikavermaconnects@gmail.com <br />
+        
           </p>
 
           {/* ---- BUTTONS ---- */}

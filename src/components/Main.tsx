@@ -59,7 +59,7 @@ function Main() {
           {/* LOCATION */}
           <div className="location">
             <LocationOnIcon />
-            <span>Los Angeles, US</span>
+            <span>United States</span>
           </div>
 
           {/* MOBILE ICONS */}

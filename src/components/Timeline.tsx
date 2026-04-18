@@ -15,7 +15,30 @@ function Timeline() {
 
         <VerticalTimeline>
 
+
           {/* ----- EXPERIENCE 1 ----- */}
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="2026 - Los Angeles, USA"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Machine Learning Engineer Intern at iMogul.AI 
+             
+            </h3>
+
+            {/* <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4> */}
+            
+              <li>Building an intelligent screenplay retrieval engine that eliminates manual tagging and understands semantic meaning.</li> 
+                <li>The system ingests 15K–25K word scripts, chunks them intelligently, and ranks results using a hybrid approach (semantic + emotional alignment).</li>
+              
+          </VerticalTimelineElement>
+
+
+          {/* ----- EXPERIENCE 2 ----- */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
@@ -31,16 +54,11 @@ function Timeline() {
 
             {/* <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4> */}
 
-            <p>
-              <li>Collaborated with eBay to build scalable OLAP optimized storage using UNIX automation, microservices for efficient data processing.</li>
-              <li>Designed and implemented a scalable JanusGraph–FoundationDB system using Java and Gremlin, improving query efficiency by 25% and enabling low-latency, real-time graph traversal.</li>
-              <li>Automated performance benchmarking through CI/CD pipelines and shell scripts, reducing manual testing effort by 20%.</li>
-              <li>Benchmarked In-Memory, BerkeleyDB, and FoundationDB (FDB) backends, with FDB achieving 20–30% lower latency and superior fault tolerance.</li>
-              <li>Improved backend throughput by 15% and reduced query planning time by 35%, enhancing overall graph database performance and scalability.</li>
-            </p>
+           <li>Optimized large-scale graph queries across 2M+ edges in a distributed system</li>
+           <li>Designed an airport network model, benchmarked storage backends like In-Memory, BerkeleyDB, FoundationDB, and improved query traversal efficiency by 25%.</li>
           </VerticalTimelineElement>
 
-          {/* ----- EXPERIENCE 2 ----- */}
+          {/* ----- EXPERIENCE 3 ----- */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2022 to 2024 - Hyderabad, India"
@@ -51,15 +69,9 @@ function Timeline() {
 
             {/* <h4 className="vertical-timeline-element-subtitle">Hyderabad, India</h4> */}
 
-            <p>
-              <li>Developed Python and SQL based ETL workflows integrating the Cash Application module for global clients.</li>
-              <li>Automated Account Receivables (AR) reconciliation and secure SFTP data exchange, cutting invoice matching time by 98%.</li>
-              <li>Optimized CI/CD data pipelines and analyzed large-scale Order to Cash (OTC) workflows, enhancing AR reconciliation by 40%.</li>
-              <li>Enhanced SQL queries and optimized data models, boosting pipeline performance by 20%.</li>
-              <li>Streamlined onboarding of new banking clients by automating data-mapping scripts, reducing integration time by 50%.</li>
-
-              {/* <li>Received “Spot Award” and ESOP for high performance, client communication, and delivery excellence.</li> */}
-            </p>
+          <li>Owned the complete lifecycle of a critical financial workflow from requirements gathering to production. </li>
+          <li>Engineered business rules in Python and MySQL that automated invoice creation on a SaaS platform, cutting manual work by 95%</li>
+          <li> Deployed and maintained backend services on AWS using EC2, RDS, S3 while coordinating cross-functional teams globally.</li>
           </VerticalTimelineElement>
 
           {/* -------------------------------------------------- */}

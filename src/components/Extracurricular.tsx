@@ -6,6 +6,7 @@ import mock13 from "../assets/images/mock13.jpeg";  // jashn
 import mock12 from "../assets/images/mock12.jpeg";  // hacksc
 import mock15 from "../assets/images/mock15.png";   // realityshift / Vision
 import mock14 from "../assets/images/mock14.jpeg";  // postcon
+import zariyaimage from "../assets/images/mock14.jpeg";  // postcon
 
 function Extracurricular() {
   return (
@@ -13,6 +14,25 @@ function Extracurricular() {
       <h1>Extracurricular</h1>
 
       <div className="extras-grid">
+
+         {/* 1. Zariya
+        <a
+          className="extra-card"
+          // href="https://devpost.com/software/echoes-6vy41q"
+          // target="_blank"
+          // rel="noopener noreferrer"
+        >
+          <div className="circle">
+            <img src={zariyaimage} alt="Athena Hacks – winning project" />
+            <span className="ribbon">Best Overall</span>
+          </div>
+
+          <h2>Athena Hacks 2026 Winner Zariya</h2>
+          <h3>AI Speech Therapy Assistant</h3>
+          <p>We built an AI lip-reading assistant for autistic & post-stroke patients.</p>
+          <p className="inline-link">Live demo ↗</p>
+        </a> */}
+
         {/* 1. HackSC Winner — Echoes */}
         <a
           className="extra-card"
