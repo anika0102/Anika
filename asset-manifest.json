@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Anika/static/css/main.045d0ceb.css",
-    "main.js": "/Anika/static/js/main.11c0c0d0.js",
+    "main.css": "/Anika/static/css/main.deec3af0.css",
+    "main.js": "/Anika/static/js/main.556dbe73.js",
     "static/js/453.0b1bca98.chunk.js": "/Anika/static/js/453.0b1bca98.chunk.js",
     "static/media/mock06.png": "/Anika/static/media/mock06.80dc3ce5fde91e2644d6.png",
     "static/media/mock13.jpeg": "/Anika/static/media/mock13.db0ae1fd9fa9f060f051.jpeg",
@@ -18,12 +18,12 @@
     "static/media/mock11.jpeg": "/Anika/static/media/mock11.bf1a47cc7e094304bf44.jpeg",
     "static/media/mock07.png": "/Anika/static/media/mock07.352444b180b648fea8ac.png",
     "index.html": "/Anika/index.html",
-    "main.045d0ceb.css.map": "/Anika/static/css/main.045d0ceb.css.map",
-    "main.11c0c0d0.js.map": "/Anika/static/js/main.11c0c0d0.js.map",
+    "main.deec3af0.css.map": "/Anika/static/css/main.deec3af0.css.map",
+    "main.556dbe73.js.map": "/Anika/static/js/main.556dbe73.js.map",
     "453.0b1bca98.chunk.js.map": "/Anika/static/js/453.0b1bca98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.045d0ceb.css",
-    "static/js/main.11c0c0d0.js"
+    "static/css/main.deec3af0.css",
+    "static/js/main.556dbe73.js"
   ]
 }
