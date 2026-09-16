@@ -22,23 +22,22 @@ function Main() {
 
         <div className="content">
 
-          {/* SOCIAL ICONS */}
           <div className="social_icons">
             <a href="https://github.com/anika0102" target="_blank" rel="noreferrer">
               <GitHubIcon />
             </a>
+
             <a href="https://www.linkedin.com/in/anika-verma/" target="_blank" rel="noreferrer">
               <LinkedInIcon />
             </a>
+
             <a href="mailto:anikaver@usc.edu" onClick={handleEmailClick}>
               <EmailIcon />
             </a>
           </div>
 
-          {/* NAME */}
           <h1>Anika Verma</h1>
 
-          {/* ROLE TYPEWRITER */}
           <p className="role">
             <Typewriter
               options={{
@@ -56,20 +55,20 @@ function Main() {
             />
           </p>
 
-          {/* LOCATION */}
           <div className="location">
             <LocationOnIcon />
             <span>United States</span>
           </div>
 
-          {/* MOBILE ICONS */}
           <div className="mobile_social_icons">
             <a href="https://github.com/anika0102" target="_blank" rel="noreferrer">
               <GitHubIcon />
             </a>
+
             <a href="https://www.linkedin.com/in/anika-verma/" target="_blank" rel="noreferrer">
               <LinkedInIcon />
             </a>
+
             <a href="mailto:anikaver@usc.edu" onClick={handleEmailClick}>
               <EmailIcon />
             </a>
